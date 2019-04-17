@@ -25,8 +25,8 @@ NULL
 NULL
 
 the <- new.env(parent = emptyenv())
-the$id <- "955034766742-huv7d1b1euegvk5vfmfq7v83u4rpdqb0.apps.googleusercontent.com"
-the$secret <- "rpJPeEMnDOh7qNAVjUh_aKlO"
+ the$id <- "NO ID OH NO"
+ the$secret <- "NO SECRET"
 
 get_token <- function() {
   if(!exists("token", the)){
